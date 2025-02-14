@@ -1,0 +1,41 @@
+@use"../core/variables" as vars;
+
+.sectioncomprar {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left:15px ;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+.subtituloseccioncomprar{
+    color: vars.$verde-oscuro;
+    font-size: 14px;
+    font-family:"Roboto", serif;
+}
+.tituloseccioncomprar{
+    color: vars.$negro-puro;
+    font-size: 22px;
+    font-family:"Roboto", serif;
+}
+.parrafoseccioncomprar{
+    color: vars.$gris;
+    font-size: 18px;
+    font-family:"Roboto", serif;
+}
+.botoncomprar{
+    margin: 20px;
+    border: solid 2px #6C933E;
+    border-radius: 22.5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.botoncomprar a{
+    color: vars.$verde-oscuro;
+    font-size: 20px;
+    font-family:"Roboto", serif;
+}
