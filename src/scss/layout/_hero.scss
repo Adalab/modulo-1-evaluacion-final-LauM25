@@ -34,12 +34,26 @@
     color: vars.$blanco-puro;
 }
 .container-txt-hero h1{
-    font-family: "Roboto", serif;
+    font-family: "Roboto Slab", serif;
     font-size: 30px;
 }
 .container-txt-hero p{
     font-family: "Roboto", serif;
+    font-size:16px ;
 }
 .container-txt-hero i{
     font-size: 38px;
+}
+
+/*Media query hero tablet*/
+@media (min-width:768px) {
+    .container-txt-hero h1{
+        font-size: 75px;
+    }
+    .container-txt-hero p{
+        font-size: 24px;
+    }
+    .container-txt-hero i{
+        font-size: 45px;
+    }   
 }

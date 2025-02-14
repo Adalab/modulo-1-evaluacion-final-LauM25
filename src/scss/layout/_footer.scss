@@ -6,7 +6,8 @@
     flex-direction: column-reverse;
     align-items: center;
     gap:30px;
-    padding: 45px;
+    padding-top: 80px;
+    padding-bottom: 0px;
 
     &-div1{
         display: flex;
@@ -45,7 +46,7 @@
     .icon-up{
         font-size: 45px;
         position:relative;
-        top:-420px;
+        top:-452px;
         color: vars.$blanco-puro;
         background-color: vars.$verde-oscuro;
         border-radius: 100%;
