@@ -1,0 +1,33 @@
+@use"../core/variables" as vars;
+
+.hero{
+    background-image: url('../images/portada.jpeg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:85%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 40px;
+}
+.container-txt-hero{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.container-txt-hero h1,p,i{
+    text-align: center;
+    color: vars.$blanco-puro;
+}
+.container-txt-hero h1{
+    font-family: "Roboto", serif;
+    font-size: 30px;
+}
+.container-txt-hero p{
+    font-family: "Roboto", serif;
+}
+.container-txt-hero i{
+    font-size: 38px;
+}
