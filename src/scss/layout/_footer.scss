@@ -53,3 +53,30 @@
     }
     
 }
+/*Media query tablet*/
+@media (min-width:768px){
+    .footer{
+        background-color: vars.$gris;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 40px;
+        padding-left: -40px;
+        padding-right: 100px;
+        gap:60px;
+        &-div1{
+            text-align: left;
+            align-items: start;
+        }
+        &-div2{
+            text-align: left;
+            align-items: start;
+        }
+        &-div3{
+            text-align: left;
+            align-items: start;
+        }
+        }
+}
+    
