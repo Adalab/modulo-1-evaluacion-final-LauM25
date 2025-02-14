@@ -19,12 +19,14 @@
 .tituloseccioncomprar{
     color: vars.$negro-puro;
     font-size: 22px;
-    font-family:"Roboto", serif;
+    font-family:"Roboto Slab", serif;
+    font-weight: bold;
 }
 .parrafoseccioncomprar{
     color: vars.$gris;
     font-size: 18px;
     font-family:"Roboto", serif;
+    font-weight: normal;
 }
 .botoncomprar{
     margin: 20px;
@@ -38,4 +40,16 @@
     color: vars.$verde-oscuro;
     font-size: 20px;
     font-family:"Roboto", serif;
+}
+/*Media query tablet*/
+@media (min-width:768px){
+    .subtituloseccioncomprar{
+        font-size: 16px;
+    }
+    .tituloseccioncomprar{
+        font-size: 32px;
+    }
+    .parrafoseccioncomprar{
+        font-size: 20px;
+    }
 }
