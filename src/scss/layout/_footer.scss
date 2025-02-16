@@ -6,7 +6,8 @@
     flex-direction: column-reverse;
     align-items: center;
     padding-top: 60px;
-    padding-bottom: 0px;
+    padding-bottom: 60px;
+    position: relative;
 
     &-div1{
         display: flex;
@@ -44,11 +45,15 @@
     }
     .icon-up{
         font-size: 45px;
-        position:relative;
-        top:-345px;
         color: vars.$blanco-puro;
         background-color: vars.$verde-oscuro;
         border-radius: 100%;
+    }
+    .container-icon-up{
+        position: absolute;
+        top:-20px;
+        left: 50%;
+        transform: translate(-50%);
     }
     
 }
