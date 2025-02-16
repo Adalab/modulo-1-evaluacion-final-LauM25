@@ -56,7 +56,10 @@
         transform: translate(-50%);
         transition: transform 1s ease;
         border-radius: 100%;
-    }  
+    }
+    a:hover{
+        text-decoration: underline white solid 1px;
+    }
 }
 /*Media query tablet*/
 @media (min-width:768px){
