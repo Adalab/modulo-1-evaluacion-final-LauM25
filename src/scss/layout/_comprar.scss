@@ -36,6 +36,19 @@
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    transition: transform 1s ease;
+}
+.botoncomprar:hover{
+    transform:scale(1.05);
+    transition:0ms;
+    border-radius: 22.5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: vars.$verde-oscuro;
+}
+.botoncomprar a:hover{
+    color:white;
 }
 .botoncomprar a{
     color: vars.$verde-oscuro;

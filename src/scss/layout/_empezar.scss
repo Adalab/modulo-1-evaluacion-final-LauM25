@@ -48,6 +48,21 @@
     padding-right: 20px;
     background-color: vars.$verde-oscuro;
     border: solid 2px #6C933E;
+    transition: transform 1s ease;
+}
+.boton-empezar:hover{
+    margin: 20px;
+    border-radius: 22.5px;
+    transform:scale(1.05);
+    transition:0ms;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: vars.$blanco-puro;
+    border: solid 2px vars.$verde-oscuro;
+}
+.boton-empezar-enlace:hover{
+    color:#6C933E;
 }
 .boton-empezar-enlace{
     color: vars.$blanco-puro;

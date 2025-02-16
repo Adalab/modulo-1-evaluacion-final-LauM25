@@ -54,8 +54,9 @@
         top:-20px;
         left: 50%;
         transform: translate(-50%);
-    }
-    
+        transition: transform 1s ease;
+        border-radius: 100%;
+    }  
 }
 /*Media query tablet*/
 @media (min-width:768px){
@@ -82,7 +83,7 @@
         }
 }
 
-/*Media query tablet*/
+/*Media query desktop*/
 @media (min-width:1280px){
     .footer{
         .section1{

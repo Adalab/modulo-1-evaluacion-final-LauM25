@@ -43,6 +43,10 @@
 }
 .container-txt-hero i{
     font-size: 38px;
+    transition: transform 1s ease;
+}
+.container-txt-hero i:hover{
+    transform:rotate(360deg) ;
 }
 
 /*Media query hero tablet*/
